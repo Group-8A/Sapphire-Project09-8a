@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/29/2023 5:59:45 AM"
+    "x-generation-date": "12/04/2023 8:40:34 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -14541,6 +14541,12 @@
                 "last_logged_in": {
                   "type": "string"
                 },
+                "deleted": {
+                  "type": "boolean"
+                },
+                "time_deleted": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -15813,6 +15819,12 @@
               "last_logged_in": {
                 "type": "string"
               },
+              "deleted": {
+                "type": "boolean"
+              },
+              "time_deleted": {
+                "type": "string"
+              },
               "created_by": {
                 "type": "string"
               },
@@ -16333,6 +16345,12 @@
                 "last_logged_in": {
                   "type": "string"
                 },
+                "deleted": {
+                  "type": "boolean"
+                },
+                "time_deleted": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -16722,6 +16740,15 @@
           "last_logged_in": {
             "type": "string",
             "format": "date-time"
+          },
+          "deleted": {
+            "type": "boolean",
+            "default": false
+          },
+          "time_deleted": {
+            "type": "string",
+            "format": "date-time",
+            "default": "2001-01-01T05:00:00.000Z"
           }
         }
       },
@@ -16752,6 +16779,15 @@
           "last_logged_in": {
             "type": "string",
             "format": "date-time"
+          },
+          "deleted": {
+            "type": "boolean",
+            "default": false
+          },
+          "time_deleted": {
+            "type": "string",
+            "format": "date-time",
+            "default": "2001-01-01T05:00:00.000Z"
           },
           "created_by": {
             "type": "string"

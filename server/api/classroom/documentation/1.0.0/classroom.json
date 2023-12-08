@@ -946,6 +946,12 @@
                 "last_logged_in": {
                   "type": "string"
                 },
+                "deleted": {
+                  "type": "boolean"
+                },
+                "time_deleted": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },

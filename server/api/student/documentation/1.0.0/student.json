@@ -784,6 +784,15 @@
           "last_logged_in": {
             "type": "string",
             "format": "date-time"
+          },
+          "deleted": {
+            "type": "boolean",
+            "default": false
+          },
+          "time_deleted": {
+            "type": "string",
+            "format": "date-time",
+            "default": "2001-01-01T05:00:00.000Z"
           }
         }
       },
@@ -814,6 +823,15 @@
           "last_logged_in": {
             "type": "string",
             "format": "date-time"
+          },
+          "deleted": {
+            "type": "boolean",
+            "default": false
+          },
+          "time_deleted": {
+            "type": "string",
+            "format": "date-time",
+            "default": "2001-01-01T05:00:00.000Z"
           },
           "created_by": {
             "type": "string"

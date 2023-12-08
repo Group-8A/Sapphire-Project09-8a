@@ -1,18 +1,20 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import { Popconfirm, Table } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
-export default function AccountListView({data}) {
+import { recoverStudent } from '../../../../Utils/requests';
+export default function AccountListView({data, onRecover}) {
+  const [selectedRowKeys, setSelectedRowKeys] = useState([]);
 
 
   const columns = [
     {
       title: 'Name', 
-      dataIndex: 'Name',
+      dataIndex: 'name',
       key: 'Name',
     },
     {
       title: 'Role', 
-      dataindex: 'Role', 
+      dataIndex: 'Role', 
       key: 'Role',
     },
     {
@@ -22,21 +24,50 @@ export default function AccountListView({data}) {
     },
     {
       title: 'Time Deleted',
-      dataIndex: 'TimeDeleted',
+      dataIndex: 'time_deleted',
       key: 'TimeDeleted'
     },
     
   ];
-
   
-  return (
+  
+  const rowSelection = {
+    onChange: (selectedRowKeys, selectedRows) => {
+      setSelectedRowKeys(selectedRowKeys);       
+    },
     
-    <div id='table-container'>
-      <Table
-          columns={columns}
-          dataSource={null}
-          
-      />
+  };
+
+  const hasSelected = selectedRowKeys.length > 0; 
+
+  const handleRecoverAccount = () =>  {
+    
+    selectedRowKeys.forEach((student) => { 
+      recoverStudent(student); 
+    })
+    //const updatedAccounts = accounts.filter((account) => !selectedRowKeys.includes(account.id));
+    //setAccounts(updatedAccounts);
+    onRecover(selectedRowKeys); 
+      // Clear selected row keys
+    setSelectedRowKeys([]);
+
+  }
+
+  return (
+    <div> 
+      <div id='table-container'>
+        <Table
+            rowSelection={{ 
+              ...rowSelection,
+            }}
+            columns={columns}
+            dataSource={data.map((item) => ({ ...item, key: item.id }))}
+            
+        />
+      </div>
+      
+      {hasSelected ? <button onClick={handleRecoverAccount}> Recover Account </button> : null} 
+      
     </div>
 
   );
