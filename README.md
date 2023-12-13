@@ -13,19 +13,19 @@ In this project, we aimed to incorporate the Administrator feature into the exis
 Feature | Related Screenshots | 
 --- | --- | 
 **Administrator Role** This was not something we had to implement. However, to best continue developing our project, we required a rudimentary implementation. Thus, users who have an Administrator role nearly wield omniscient power as all their permissions are activated. | ![image](https://github.com/Group-8A/Sapphire-Project09-8a/assets/81883243/4ba5fdd0-8f23-4cb0-bfd8-5b7ff2c45a17) |   
-**Administrator Collection Type** TEXT HERE | IMAGE HERE |
-**Organization Collection Type** TEXT HERE | IMAGE HERE |
-**Admin Log-In** TEXT HERE | IMAGE HERE |
-**Admin Log-In Link** TEXT HERE | IMAGE HERE |
-**Administrator Dashboard** TEXT HERE | IMAGE HERE |
-**Organization Dashboard** TEXT HERE | IMAGE HERE |
-**Organization Dashboard: Organization Home** TEXT HERE | IMAGE HERE |
-**Organization Dashboard: Classroom Management** TEXT HERE | IMAGE HERE |
-**Organization Maneuver** TEXT HERE | IMAGE HERE |
-**Organization Dashboard: Moderation** TEXT HERE | IMAGE HERE |
-**Moderation: Account Data Recovery** TEXT HERE | IMAGE HERE |
-**Moderation Action** TEXT HERE | IMAGE HERE |
-**Organization Dashboard: Gallery** TEXT HERE | IMAGE HERE |
+**Administrator Collection Type** There can be a multitude of administrators with various organizations. Therefore, we created the Administrator collection type in which the Administrator has a first and last name, organizations, an associated user, and moderation records. The associated user is so the Administrator can log in and interact with their organizations.  | IMAGE HERE |
+**Organization Collection Type** However, we also required an Organization collection type. An organization necessitates a name, the schools it contains, the administrators that have oversight of it, and moderation records. | IMAGE HERE |
+**Admin Log-In** Naturally, the Administrator must be able to log in. We created this page to provide this service. On a successful authorization, the Administrator is redirected to their dashboard. | IMAGE HERE |
+**Admin Log-In Link** It can be tiring to repeatedly type in the URL for the admin login page. Therefore, we added a link in the navigation so that Administrators can easily access this entry. | IMAGE HERE |
+**Administrator Dashboard** Here, the Administrator has an intuitive overview of the Organizations they have oversight over. By clicking the “View” button of each card, the Administrator can access more information about and modify the selected Organization. The Administrator can also add a new Organization from using the "Add Organization" button. This button will ask the Administrator the name of the new Organization and the schools thereof. Also of this feature is that only schools that are not associated with an Organization will be listed. | IMAGE HERE |
+**Organization Dashboard** Inside of a particular Organization, the Administrator is shown several tabs of which they can access more specific information about the Organization. | IMAGE HERE |
+**Organization Dashboard: Organization Home** All the basic information about an Organization (i.e. the mentors, students, classrooms, and schools) is displayed in this tab. The Administrator can also use buttons to modify these features of an Organization. At the bottom of the page is a button used to delete the organization. After deleting the organization, the Administrator is redirected back to the Administrator Dashboard. | IMAGE HERE |
+**Organization Dashboard: Classroom Management** In this tab, the Administrator can select “All Schools” to view more organized information from all schools of the organization. They can also select a particular school (in this case, the Administrator did not have any schools) to view organized information from specifically that school. The Administrator can also easily add a school to the current Organization. | IMAGE HERE |
+**Organization Maneuver** In this simple feature, the Administrator can view the schools of their organization or the classrooms of a school (or all schools). This maneuvering is tailored to aid the Administrator in finding important information about their Organizations. Within a school, the Administrator can page through the various classrooms, view mentors and students, and modify the school in a variety of ways. | IMAGE HERE |
+**Organization Dashboard: Moderation** This feature allows administrators to view a log of past moderation actions performed by themselves and other administrators within a given organization. Moderation actions are meant to be logged as they occur, and stored in the moderation-records collection. Moderation actions are only visible in the moderation tab of the organizations where the actions are performed. | IMAGE HERE |
+**Moderation: Account Data Recovery** In this feature, the administrator can view student accounts that were recently deleted in a table. When one or more accounts are selected from the table, the data for these accounts can be recovered.  | IMAGE HERE |
+**Moderation Action** This feature allows an administrator to compose the structure of a new custom moderation action, where they can select the type of moderation action (add, modify, or delete) and the desired “collection” to perform the action on, as shown here. | IMAGE HERE |
+**Organization Dashboard: Gallery** We were unable to wholly implement this feature, however we drafted a rough prototype of the feature. Ideally, the submissions of students would appear in the gallery and we would be able to select and delete them. | IMAGE HERE |
 
 
 
