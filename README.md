@@ -10,7 +10,7 @@ In this project, we aimed to incorporate the Administrator feature into the exis
     5. Aiden Shay - Dev Team  
     6. Lysandra Belnavis-Walters - Dev Team
 
-**Features**  
+### Features  
 Feature | Related Screenshots | 
 --- | --- | 
 **Administrator Role** This was not something we had to implement. However, to best continue developing our project, we required a rudimentary implementation. Thus, users who have an Administrator role nearly wield omniscient power as all their permissions are activated. | ![image](https://github.com/Group-8A/Sapphire-Project09-8a/assets/81883243/4ba5fdd0-8f23-4cb0-bfd8-5b7ff2c45a17) |   
@@ -28,13 +28,14 @@ Feature | Related Screenshots |
 **Moderation Action** This feature allows an administrator to compose the structure of a new custom moderation action, where they can select the type of moderation action (add, modify, or delete) and the desired “collection” to perform the action on, as shown here. | ![image](https://github.com/Group-8A/Sapphire-Project09-8a/assets/81883243/d1ad11c5-b3d2-4324-8542-c6e4d4f8e033) ![image](https://github.com/Group-8A/Sapphire-Project09-8a/assets/81883243/42982125-193b-4020-ad37-77f5605b7eb4) |
 **Organization Dashboard: Gallery** We were unable to wholly implement this feature, however we drafted a rough prototype of the feature. Ideally, the submissions of students would appear in the gallery and we would be able to select and delete them. | ![image](https://github.com/Group-8A/Sapphire-Project09-8a/assets/81883243/49b756ad-c357-4211-b91f-89586262c150) |
 
-**Instructions for Running the Project Locally**   
+### Instructions for Running the Project Locally   
 Our project can be run normally. Simply “yarn start” in the client directory of the repository and have Docker up and running. Once Docker has loaded, you can interact with what we have created. However, you will have to set up the Administrator user so that you can log into their account.
 
-**How to Update Database and Server Connections**  
+### How to Update Database and Server Connections  
 After creating the Administrator role, all the permissions in the "Users & Permissions Plugin" section need to be activated.  
   
-Here is a section that shows how to create the Administrator. This encapsulates much of what the Administrator is, however, it is still outdated as this was created when we first began the project.  
+Here is a section that shows how to create the Administrator. This encapsulates much of what the Administrator is, however, it is still outdated as this was created when we first began the project. 
+
 **Creating the Administrator Role**  
 1. Go to "Settings" and click "Roles" of the "Users & Permissions Plugin" section
 2. Click "+ Add new role"
@@ -69,16 +70,16 @@ The User collection type is already made, we are just creating a User entry to u
 5. Set the **user** to the one you just made. I think the usernames are showing here
 6. Save and publish  
   
-**Update the Database and STRAPI Dump Files in File Directory**  
+### Update the Database and STRAPI Dump Files in File Directory  
 N/A
 
-**Outstanding Work**   
+### Outstanding Work   
 There are still several items we have not completed such as connecting the organization with a personal account, and managing member access.   
 ![image](https://github.com/Group-8A/Sapphire-Project09-8a/assets/81883243/23bc0709-622a-4005-b4a3-ba706d31f73a)  
 Although the bulk of the classroom management area has been completed, there is still some refactoring (for authorization/authentication issues) with deletion to be done so that we can incorporate the moderation area.  
 In the future, we also hope to expand the gallery to give the Administrator more control and ease.  
 
-**Built Upon**  
+### Built Upon  
 Except for using Bootstrap for button icons, we did not require outside sources for the implementation of our project. This is not considering the other things this project was already built on (such as Node and Strapi).
 
 
