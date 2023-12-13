@@ -9,6 +9,14 @@ In this project, we aimed to incorporate the Administrator feature into the exis
     4. James Hu - Dev Team  
     5. Aiden Shay - Dev Team  
     6. Lysandra Belnavis-Walters - Dev Team
+Name | Role | 
+--- | --- | 
+Connor Voigt | Project Manager | 
+Leila Diab | Scrum Master | 
+Tyler Jaramillo-Pritchard | Dev Team |
+James Hu | Dev Team | 
+Aiden Shay | Dev Team |
+Lysandra Belnavis-Walters | Dev Team |
 
 ### Features  
 Feature | Related Screenshots | 
