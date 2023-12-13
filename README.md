@@ -34,14 +34,14 @@ Our project can be run normally. Simply “yarn start” in the client directory
 **How to Update Database and Server Connections**  
 After creating the Administrator role, all the permissions in the "Users & Permissions Plugin" section need to be activated.  
   
-Here is a section that shows how to create the Administrator. This encapsulates much of what the Administrator is, however, it is still outdated as this was created when we first began the project.
-**Creating the Administrator Role**
+Here is a section that shows how to create the Administrator. This encapsulates much of what the Administrator is, however, it is still outdated as this was created when we first began the project.  
+**Creating the Administrator Role**  
 1. Go to "Settings" and click "Roles" of the "Users & Permissions Plugin" section
 2. Click "+ Add new role"
 3. Set the name to "Administrator" and add a generic description
 4. Find the "Permissions" section and activate all the permissions.
 5. Make sure to save or finish the role when you're done
-**Creating a User Entry**
+**Creating a User Entry**  
 The User collection type is already made, we are just creating a User entry to use later on.
 1. Find the "User" collection type in "Collection Types"
 2. Click "+ Add New Users"
@@ -49,7 +49,7 @@ The User collection type is already made, we are just creating a User entry to u
 4. Set **confirmed** field to "ON"
 5. Set the **role** to "Administrator"
 6. Save and publish
-**Create an Administrator Collection Type**
+**Create an Administrator Collection Type**  
 1. Go to "Content-Types Builder" and click "+ Create new collection type"
 2. Set the display name to "Administrator"
 3. Add two short text fields named "first_name" and "last_name"
