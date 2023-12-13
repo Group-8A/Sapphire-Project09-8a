@@ -48,7 +48,8 @@ The User collection type is already made, we are just creating a User entry to u
 3. Set the **username**, **email**, and **password** to whatever you'd like
 4. Set **confirmed** field to "ON"
 5. Set the **role** to "Administrator"
-6. Save and publish  
+6. Save and publish
+
 **Create an Administrator Collection Type**  
 1. Go to "Content-Types Builder" and click "+ Create new collection type"
 2. Set the display name to "Administrator"
@@ -58,7 +59,8 @@ The User collection type is already made, we are just creating a User entry to u
 5. Add a relational field called "user"
     - An Administrator is associated with a User. This is like how a Spotify Premium account can be associated with a student account to receive a discount.
     - From the six relational boxes, choose the one on the farthest left.
-6. Click the button to finish or save (cannot remember). Just make sure you don't lose your work and that the type is created.  
+6. Click the button to finish or save (cannot remember). Just make sure you don't lose your work and that the type is created.
+
 **Creating an Administrator Entry**
 1. Find the "Administrator" collection type that you've just made in "Collection Types"
 2. Click "+ Add New Administrators"
