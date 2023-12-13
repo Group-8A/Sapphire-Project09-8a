@@ -13,8 +13,18 @@ In this project, we aimed to incorporate the Administrator feature into the exis
 Feature | Related Screenshots | 
 --- | --- | 
 **Admin Role** This was not something we had to implement. However, to best continue developing our project, we required a rudimentary implementation. Thus, users who have an Administrator role nearly wield omniscient power as all their permissions are activated. | ![image](https://github.com/Group-8A/Sapphire-Project09-8a/assets/81883243/4ba5fdd0-8f23-4cb0-bfd8-5b7ff2c45a17) |   
-**Admin Collection Type** TEXT HERE | IMAGE HERE |
-
+**Organization Collection Type** TEXT HERE | IMAGE HERE |
+**Admin Log-In** TEXT HERE | IMAGE HERE |
+**Admin Log-In Link** TEXT HERE | IMAGE HERE |
+**Administrator Dashboard** TEXT HERE | IMAGE HERE |
+**Organization Dashboard** TEXT HERE | IMAGE HERE |
+**Organization Dashboard: Organization Home** TEXT HERE | IMAGE HERE |
+**Organization Dashboard: Classroom Management** TEXT HERE | IMAGE HERE |
+**Organization Maneuver** TEXT HERE | IMAGE HERE |
+**Organization Dashboard: Moderation** TEXT HERE | IMAGE HERE |
+**Moderation: Account Data Recovery** TEXT HERE | IMAGE HERE |
+**Moderation Action** TEXT HERE | IMAGE HERE |
+**Organization Dashboard: Gallery** TEXT HERE | IMAGE HERE |
 
 
 
