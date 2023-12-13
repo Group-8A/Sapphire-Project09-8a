@@ -3,13 +3,6 @@
 In this project, we aimed to incorporate the Administrator feature into the existing CASMM repository. To do this, we implemented a multitude of features, which are highlighted below.
 
 **Members**  
-    1. Connor Voigt - Project Manager   
-    2. Leila Diab - Scrum Master   
-    3. Tyler Jaramillo-Pritchard - Dev Team   
-    4. James Hu - Dev Team  
-    5. Aiden Shay - Dev Team  
-    6. Lysandra Belnavis-Walters - Dev Team
-
 Name | Role | 
 --- | --- | 
 Connor Voigt | Project Manager | 
