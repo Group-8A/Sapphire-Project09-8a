@@ -1,3 +1,52 @@
+# Project 9 - Group 8A
+
+In this project, we aimed to incorporate the Administrator feature into the existing CASMM repository. To do this, we implemented a multitude of features, which are highlighted below.
+
+**Members**  
+    1. Connor Voigt - Project Manager   
+    2. Leila Diab - Scrum Master   
+    3. Tyler Jaramillo-Pritchard - Dev Team   
+    4. James Hu - Dev Team  
+    5. Lysandra Belnavis-Walters - Dev Team
+
+**Features**  
+Feature | Related Screenshots | 
+--- | --- | 
+Admin Role | ![image](https://github.com/Group-8A/Sapphire-Project09-8a/assets/81883243/4ba5fdd0-8f23-4cb0-bfd8-5b7ff2c45a17)
+| 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # CaSMM
 
 > Computation and Science Modeling through Making
