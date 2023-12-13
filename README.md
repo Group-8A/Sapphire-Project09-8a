@@ -32,7 +32,40 @@ Feature | Related Screenshots |
 Our project can be run normally. Simply “yarn start” in the client directory of the repository and have Docker up and running. Once Docker has loaded, you can interact with what we have created. However, you will have to set up the Administrator user so that you can log into their account.
 
 **How to Update Database and Server Connections**  
-After creating the Administrator role, all the permissions in the "Users & Permissions Plugin" section need to be activated.
+After creating the Administrator role, all the permissions in the "Users & Permissions Plugin" section need to be activated.  
+  
+Here is a section that shows how to create the Administrator. This encapsulates much of what the Administrator is, however, it is still outdated as this was created when we first began the project.
+**Creating the Administrator Role**
+1. Go to "Settings" and click "Roles" of the "Users & Permissions Plugin" section
+2. Click "+ Add new role"
+3. Set the name to "Administrator" and add a generic description
+4. Find the "Permissions" section and activate all the permissions.
+5. Make sure to save or finish the role when you're done
+**Creating a User Entry**
+The User collection type is already made, we are just creating a User entry to use later on.
+1. Find the "User" collection type in "Collection Types"
+2. Click "+ Add New Users"
+3. Set the **username**, **email**, and **password** to whatever you'd like
+4. Set **confirmed** field to "ON"
+5. Set the **role** to "Administrator"
+6. Save and publish
+**Create an Administrator Collection Type**
+1. Go to "Content-Types Builder" and click "+ Create new collection type"
+2. Set the display name to "Administrator"
+3. Add two short text fields named "first_name" and "last_name"
+4. Add a relational field called "organizations"
+    - Similar to the prior collection type, an Administrator can have many Organizations. Thus, from the six relational boxes, choose the one on the farthest right.
+5. Add a relational field called "user"
+    - An Administrator is associated with a User. This is like how a Spotify Premium account can be associated with a student account to receive a discount.
+    - From the six relational boxes, choose the one on the farthest left.
+6. Click the button to finish or save (cannot remember). Just make sure you don't lose your work and that the type is created.
+**Creating an Administrator Entry**
+1. Find the "Administrator" collection type that you've just made in "Collection Types"
+2. Click "+ Add New Administrators"
+3. Set the **first** and **last names**
+4. If you already made organizations, you can associate them with this particular Administrator. You don't have to though, you can leave this blank
+5. Set the **user** to the one you just made. I think the usernames are showing here
+6. Save and publish
   
 **Update the Database and STRAPI Dump Files in File Directory**  
 N/A
