@@ -32,7 +32,10 @@ Feature | Related Screenshots |
 Our project can be run normally. Simply “yarn start” in the client directory of the repository and have Docker up and running. Once Docker has loaded, you can interact with what we have created. However, you will have to set up the Administrator user so that you can log into their account.
 
 **How to Update Database and Server Connections**  
+After creating the Administrator role, all the permissions in the "Users & Permissions Plugin" section need to be activated.
+  
 **Update the Database and STRAPI Dump Files in File Directory**  
+N/A
 
 **Outstanding Work**   
 There are still several items we have not completed such as connecting the organization with a personal account, and managing member access.   
