@@ -9,6 +9,7 @@ In this project, we aimed to incorporate the Administrator feature into the exis
     4. James Hu - Dev Team  
     5. Aiden Shay - Dev Team  
     6. Lysandra Belnavis-Walters - Dev Team
+
 Name | Role | 
 --- | --- | 
 Connor Voigt | Project Manager | 
