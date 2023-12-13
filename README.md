@@ -14,7 +14,7 @@ Feature | Related Screenshots |
 --- | --- | 
 Admin Role  
 This was not something we had to implement. However, to best continue developing our project, we required a rudimentary implementation. Thus, users who have an Administrator role nearly wield omniscient power as all their permissions are activated. | ![image](https://github.com/Group-8A/Sapphire-Project09-8a/assets/81883243/4ba5fdd0-8f23-4cb0-bfd8-5b7ff2c45a17)
-|   
+--- | --- | 
 Admin Collection Type | IMAGE HERE |
 
 
