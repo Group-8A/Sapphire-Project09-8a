@@ -1,6 +1,6 @@
 # Project 9 - Group 8A
 
-In this project, we aimed to incorporate the Administrator feature into the existing CASMM repository. To do this, we implemented a multitude of features, which are highlighted below.
+In this project, we aimed to incorporate the Administrator into the existing CASMM repository. To do this, we implemented a multitude of features, which are highlighted below.
 
 **Members**  
 Name | Role | 
